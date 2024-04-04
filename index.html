@@ -10,12 +10,17 @@
         <!--=============== REMIXICONS ===============-->
         <link
     href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet"/>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
         
         <!--=============== SWIPER CSS ===============-->
         <link rel="stylesheet" href="swiper-bundle.min.css">
 
         <!--=============== CSS ===============-->
         <link rel="stylesheet" href="style.css">
+		
+		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
         <title>Sana shaikh</title>
         <style>
@@ -23,8 +28,9 @@
         </style>
     </head>
     <body>
+	
         <!--==================== HEADER ====================-->
-        <header class="header" id="header">
+        <header  class="header" id="header">
             <nav class="nav container">
                 <a href="#" class="nav__logo">Sana shaikh
 
@@ -87,39 +93,40 @@
         </header>
 
         <!--==================== MAIN ====================-->
-        <main class="main">
+        <main  class="main">
             <!--==================== HOME ====================-->
-            <section class="home section" id="home">
+            <section  class="home section" id="home">
                 <div class="home__container container grid section__border">
                   <div class="home__data grid">
                     <h1 class="home__title">
-                      Hello i'm sana shaikh<br>
-                      Frontend DEveloper<br>
-                      In Ajmer<br>
+                     Hello <br>IM SANA SHAIKH<br>
+                      
+                     
                     </h1>
                     <div class="home__blob grid">
-                      <div class="home__perfil">
+                      <div data-aos="flip-up" data-aos-delay="500" data-aos-duration="10000" class="home__perfil">
                         <img src="mm.png" alt="home perfil">
                       </div>
-                    <img src="shape-wawes.svg" alt="" class="home__shape__wawes">
-                      <img src="shape-circle.svg" alt="" class="home__shape__circle">
+                   <!-- <img src="shape-wawes.svg" alt="" class="home__shape__wawes">
+                      <img src="shape-circle.svg" alt="" class="home__shape__circle">-->
                     </div>
                     <ul class="home__social">
-                      <a href="https://www.linkedin.com/in/sana-shaikh-50b527294/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BRTxqfj4OTr2wj8VwHvXY%2Fw%3D%3D" target="_blank" class="home__social-link">
+                      <a data-aos="zoom-in" data-aos-delay="500" data-aos-duration="10000" href="https://www.linkedin.com/in/sana-shaikh-50b527294/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BRTxqfj4OTr2wj8VwHvXY%2Fw%3D%3D" target="_blank" class="home__social-link">
                         <i class="ri-linkedin-box-line"></i>
                       </a>
 
-                      <a href="#" target="_blank" class="home__social-link">
+                      <a data-aos="zoom-in" data-aos-delay="500" data-aos-duration="10000" href="#" target="_blank" class="home__social-link">
                         <i class="ri-github-line"></i>
                       </a>
 
-                      <a href="#" target="_blank" class="home__social-link">
+                      <a data-aos="zoom-in" data-aos-delay="500" data-aos-duration="10000" href="#" target="_blank" class="home__social-link">
                         <i class="ri-dribbble-line"></i>
                       </a>
                     </ul>
                   </div>
-                  <div class="home__info">
-                    <div>
+                  <div  data-aos="fade-up"
+     data-aos-duration="3000"" class="home__info">
+                    <div class="homie">
                       <h3 class="home__info-title">
                         BIOGRAPHY
                       </h3>
@@ -131,8 +138,8 @@
                       </p>
                     </div>
 
-                    <div>
-                      <h3 class="home__info-title">
+                    <div class="homie">
+                      <h3 class="home__info-title hit">
                         CONTACT
                       </h3>
                       <p class="home__info-description">
@@ -142,7 +149,7 @@
                       </p>
                     </div>
 
-                    <div>
+                    <div class="homie">
                       <h3 class="home__info-title">
                         SERVICES
                       </h3>
@@ -153,17 +160,20 @@
                       </p>
                     </div>
                   </div>
-                  <div class="home__info">
-                    <div>
+                  <div data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="1500" class="home__info">
+                    <div class="homie">
                       <h3 class="home__info-title">
                         YEARS OF EXPERIENCE
                       </h3>
                       <p class="home__info-number">
                        02+
                       </p>
+					  
                     </div>
 
-                    <div>
+                    <div class="homie">
                       <h3 class="home__info-title">
                         COMPLECTED PROJECTS
                       </h3>
@@ -172,7 +182,7 @@
                       </p>
                     </div>
 
-                    <div>
+                    <div class="homie">
                       <h3 class="home__info-title">
                         COMPANIES WORKED
                       </h3>
@@ -185,15 +195,13 @@
             </section>
 
             <!--==================== SKILLS ====================-->
-            <section class="skills section" id="skills">
+            <section data-aos-delay="200" data-aos-duration="1000" data-aos="fade-up" class="skills section" id="skills">
               <h2 class="section__title">Skills</h2>
               <span class="section__subtitle">my favorite skills</span>
               <div class="skills__container container grid section__border">
                  <!--==================== SKILLS I====================-->
                   <div class="skills_content">
-                    <h3 class="skills__title">
-                      <i class="ri-braces-line"></i>Fronthand developer
-                    </h3>
+                    
                     <div class="skills__info">
                       <div class="skills__data">
                         <div class="skills__blob">
@@ -227,45 +235,38 @@
 
                       <div class="skills__data">
                         <div class="skills__blob">
-                          <img src="react-2.svg" alt="skills image">
+                          <img src="Language.svg.png" alt="skills image">
                         </div>
-                        <h3 class="skills__name">React</h3>
+                        <h3 class="skills__name">C language</h3>
                           <span class="skills__subtitle">Basic</span>
                         
                       </div>
+						
 
-
-                      <div class="skills__data">
-                        <div class="skills__blob">
-                          <img src="git-icon.svg" alt="skills image">
-                        </div>
-                        <h3 class="skills__name"> Git</h3>
-                          <span class="skills__subtitle">Intermediate</span>
-                       
-                      </div>
+                      
                     </div>
                   </div>
                    <!--==================== SKILLS II====================-->
                    
-                  <div class="skills_content">
+              <!--    <div  class="skills_content">
                     <h3 class="skills__title">
-                      <i class="ri-pantone-line"></i>Web Designer
+                      <i class="ri-pantone-line"></i>Soft Skills
                     </h3>
                     <div class="skills__info">
                       <div class="skills__data">
                         <div class="skills__blob">
-                          <img src="figma-1.svg" alt="skills image">
+                          <img src="three.svg" alt="skills image">
                         </div>
-                        <h3 class="skills__name">Figma</h3>
+                        <h3 class="skills__name">Reading</h3>
                           <span class="skills__subtitle">Advanced</span>
                        
                       </div>
 
                       <div class="skills__data">
                         <div class="skills__blob">
-                          <img src="sketch-2.svg" alt="skills image">
+                          <img src="communication.svg" alt="skills image">
                         </div>
-                        <h3 class="skills__name"> Sketch</h3>
+                        <h3 class="skills__name"> Communication</h3>
                           <span class="skills__subtitle">Basic</span>
                        
                       </div>
@@ -297,54 +298,45 @@
                        
                       </div>
                     </div>
-                  </div>
+                  </div>-->
               </div>
             </section>
-
+<br>
+<br>
             <!--==================== QUALIFICATION ====================-->
-            <section class="qualification section__border" id="qualification">
+            <section data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000"class="qualification section__border" id="qualification">
                 <h2 class="section__title">Qualification</h2>
                 <span class="section__subtitle">Experience & education</span>
                   
-               <div class="qualification__container container grid section__border">
+               <div class="qualification__container container ">
                   <!--==================== QUALIFICATION 1====================-->
-                  <div class="qualification__content">
-                    <h3 class="qualification__title">
-                      <i class="ri-pencil-ruler-2-line"></i> Education
-                    </h3>
+                  <div class="qualification__content ">
+                    
                     <div class="qualification__info">
-                      <div>
-                        <h3 class="qualification__name">
+                      <div data-aos="flip-left" data-aos-delay="500" data-aos-duration="1000" class="qual">
+                        <h2 class="qualification__name">
                          School
-                        </h3>
+                        </h2>
                         <span class="qualification__country">St. Marys Convent ,ajmerr</span>
                         <span class="qualification__year"></span>
                       </div>
 
-                      <div>
-                        <h3 class="qualification__name">
+                      <div data-aos="flip-right" data-aos-delay="500" data-aos-duration="1000" class="qual">
+                        <h2 class="qualification__name">
                          College
-                        </h3>
+                        </h2>
                         <span class="qualification__country">Star infotech college</span>
                         <span class="qualification__year"></span>
                       </div>
 
-                      <div>
-                        <h3 class="qualification__name">
-                          UI/UX Design
-                        </h3>
-                        <span class="qualification__country">Star infotech college</span>
-                        <span class="qualification__year"></span>
-                      </div>
+                      
                     </div>
                   </div>
 
 
                    <!--==================== QUALIFICATION 2====================-->
-                   <div class="qualification__content">
-                    <h3 class="qualification__title">
-                      <i class="ri-building-line"></i>Work
-                    </h3>
+   <!--             <div class="qualification__content">
+                   
                     <div class="qualification__info">
                       <div>
                         <h3 class="qualification__name">
@@ -354,11 +346,11 @@
                         <span class="qualification__year"> </span>
 
                       <div>
-                        <h3 class="qualification__name">
-                          Software
-                        </h3>
-                        <span class="qualification__country">freelancing</span>
-                        <span class="qualification__year"> </span>
+                        <h2 class="qualification__name">
+                         College
+                        </h2>
+                        <span class="qualification__country">Star infotech college</span>
+                        <span class="qualification__year"></span>
                       </div>
 
                       <div>
@@ -372,11 +364,12 @@
                     </div>
                   </div>
                </div>
-               <img src="shape-circle.svg" alt="qualification image" class="qualification__img">
+               <img src="shape-circle.svg" alt="qualification image" class="qualification__img">-->
             </section>
 
+
             <!--==================== SERVICES ====================-->
-            <section class="services section" id="services">
+            <section data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000" class="services section" id="services">
                 <h2 class="section__title">Services</h2>
                 <span class="section__subtitle">what i offer</span>
 
@@ -417,7 +410,7 @@
             </section>
 
             <!--==================== PROJECTS ====================-->
-            <section class="projects section" id="projects">
+            <section data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000" class="projects section" id="projects">
               <h2 class="section__title">Projects</h2>
               <span class="section__subtitle">Most recent work</span>
               <div class="container section__border">
@@ -487,7 +480,7 @@
             </section>
 
             <!--==================== TESTIMONIAL ====================-->
-            <section class="testimonial section">
+            <section data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000" class="testimonial section">
               <h2 class="section__title">Testimonial</h2>
               <span class="section__subtitle">My client Sayings</span>       
               
@@ -545,11 +538,11 @@
                   </div>
                 </div>
               </div>
-              <img src="shape-wawes.svg"  class="testimonial__img" alt="testimonial image">
+      <!--        <img src="shape-wawes.svg"  class="testimonial__img" alt="testimonial image">-->
             </section>
 
             <!--==================== CONTACT ====================-->
-            <section class="contact section" id="contact">
+            <section data-aos="fade-up" data-aos-delay="400" data-aos-duration="1000"class="contact section" id="contact">
                 <h2 class="section__title">Contact Me</h2>
                 <span class="section__subtitle">Get in touch</span>
 
@@ -557,7 +550,7 @@
                   <div class="contact__content">
                     <h3 class="contact__title">
                       <i class="ri-chat-3-fill"></i>Talk to me
-                    </h3>
+                    </h3> 
 
                     <div class="contact__info">
                       <div class="contact__data">
@@ -591,12 +584,12 @@
                     </h3>
                     <form action="" class="contact__form" id="contact-form">
                       <div class="contact__form-div">
-                        <label class="contact__form-tag">Names</label>
+                        <label class="contact__form-tag">Name</label>
                         <input type="text" name="user_name" required placeholder="write your name"class=" contact__form-input" id="contact-name">
                       </div>
 
                       <div class="contact__form-div">
-                        <label class="contact__form-tag">Mail</label>
+                        <label class="contact__form-tag">Email</label>
                         <input type="email" name="user_email" required placeholder="write your mail"class="contact__form-input" id="contact-email">
                       </div>
 
@@ -615,7 +608,7 @@
         </main>
 
         <!--==================== FOOTER ====================-->
-        <footer class="footer">
+        <footer data-aos="fade-up" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000"class="footer">
           <div class="footer__container container"> 
             <h1 class="footer__title">SANA SHAIKH</h1>
             <p>Frontend Developer</p>
@@ -646,6 +639,7 @@
                 <i class="ri-dribbble-line"></i>
               </a>
             </ul>
+			<br>
             <span class="footer__copy">
               &copy;.Copyright sanshaikh .All rights reserved
             </span>
@@ -670,6 +664,10 @@
         <!--=============== MAIN JS ===============-->
         <script src="main.js"></script>
         <script src="main2.js"></script>
-    
+		
+		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+		<script>
+			AOS.init();
+		</script>
 </body>
 </html>
