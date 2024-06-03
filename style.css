@@ -74,7 +74,7 @@
     body {
 		
 		/* #7a5d67*/
-		background-image: url("https://images.pexels.com/photos/7130537/pexels-photo-7130537.jpeg?auto=compress&cs=tinysrgb&w=600");
+		background-image: url(/*"https://media0.giphy.com/media/OkVVUlG40FnuE/200.webp?cid=790b7611xkexhybv2fjod1d2zm4e9wak9dhez6x299d1mbu2&ep=v1_gifs_search&rid=200.webp&ct=g");*/
 		 background-size:cover;
 		text-align:center;
       font-size: var(--normal-font-size);
@@ -426,6 +426,7 @@
     /*=============== SKILLS ===============*/
     .skills__container{
       row-gap: 3.5rem;
+	  margin-left: 600px;
     
     }
     .skills__title{
@@ -485,6 +486,7 @@
 	.skills_content{
 		
 		text-align:center;
+		align-items:center;
 		
 	}
     /* Animation skills */
@@ -523,14 +525,7 @@
 		 border-radius:50px;
 	//	 background-image:  radial-gradient(circle at top left, #f00,#3020ff); 
 	}
-	.qual:hover {
-		width:50%;
-     
-      border: 1.8px solid var(--text-color-light);
-	 background-image:  radial-gradient(circle at top left, #f00,#3020ff); 
-		
-		
-	}
+	
     .qualification__container{
       row-gap: 3.6rem;
     
@@ -996,7 +991,7 @@
       position: fixed;
       right: 1rem;
       bottom: -30%;
-      background-color: var(--body-color);
+       background: -webkit-linear-gradient(rgb(188, 12, 241), rgb(212, 4, 4));
       box-sizing: 0 4px 12px hsl(207 ,24% 35% .15);
       padding: .35rem;
       border-radius: .25rem;
